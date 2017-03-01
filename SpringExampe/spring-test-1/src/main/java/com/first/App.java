@@ -15,6 +15,8 @@ public class App
     	ApplicationContext context = new ClassPathXmlApplicationContext("springBeans.xml");
     	HelloBean obj = (HelloBean) context.getBean("helloBean");
     	obj.printHello();
-
+ 
+        obj.setName("NAME");
+        obj.printHello();
     }
 }

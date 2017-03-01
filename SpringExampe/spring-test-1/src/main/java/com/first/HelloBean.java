@@ -1,5 +1,8 @@
 package com.first;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class HelloBean {
 	private String name;
 	 
